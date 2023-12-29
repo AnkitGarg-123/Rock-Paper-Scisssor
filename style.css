@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background-color: rgb(12, 12, 46);
+}
+.rules{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.newgame{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 5px;
+    display: block;
+}
+.hide{
+    display: none;
+    
+}
+.exit{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 50px;
+    border-radius: 10px;
+    
+}
+body{
+    background-color:rgb(250, 232, 232);
+}
+
+.uldiv{
+    border: 2px solid rgb(31, 22, 6);
+    max-width: 600px;
+    display: block;
+    margin-left: 6px;
+    border-radius: 10px;
+    visibility: hidden;
+    font-size: 20px;
+    
+}
+
+.headScore{
+    text-align: center;
+    font-size: 30px;
+}
+
+.game{
+    height: 250px;
+    width: 1200px;  
+    display: flex;
+    gap: 150px;
+    /* border: 1px solid black; */
+    /* margin-top: 10px; */
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.choice{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+
+}
+.choice:hover{
+    opacity: 0.51;
+}
+
+
+.scoreboard{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+    margin-top: 15x;
+}
+#userScore, #compScore{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.user,.computer{
+    margin-top: 7px;
+    font-size: 30px
+}
+.msgContainer{
+    display: flex;
+    justify-content:center ;
+    justify-items: center;
+}
+
+.msg{
+    font-size: 40px;
+    display: inline;
+    border-radius: 10px;
+    display: inline;
+}
