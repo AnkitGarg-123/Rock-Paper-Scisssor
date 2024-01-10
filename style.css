@@ -107,3 +107,112 @@ body{
     border-radius: 10px;
     display: inline;
 }
+
+
+@media (min-width:350px) and (max-width:950px){
+    *{
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    h1{
+        padding: 5px 0 0 100px;
+        width: 100vw;
+        text-align: start;
+        font-size: 1.5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        background-color: rgb(12, 12, 46);
+    }
+    .rules{
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .newgame{
+        font-size: 20px;
+        display: block;
+    }
+    .hide{
+        display: none;
+        
+    }
+    .exit{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 50px;
+        border-radius: 10px;
+        
+    }
+    body{
+        background-color:rgb(250, 232, 232);
+    }
+    
+    .uldiv{
+        border: 2px solid rgb(31, 22, 6);
+        max-width: 600px;
+        display: block;
+        margin-left: 6px;
+        border-radius: 10px;
+        visibility: hidden;
+        font-size: 20px;
+        
+    }
+    
+    .headScore{
+        text-align: center;
+        font-size: 30px;
+    }
+    .game{
+        max-width: 100vw;
+        height: 140px;
+        padding: 30px;
+        gap: 20px;
+        justify-content: start;
+    }
+    .game div{
+        height: 100px;
+        width: 100px;  
+        display: flex;
+    
+    }
+    
+    .choice:hover{
+        opacity: 0.51;
+    }
+    
+    
+    .scoreboard{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        font-size: 25px;
+        /* margin-top: 15x; */
+    }
+    #userScore, #compScore{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .user,.computer{
+        margin-top: 7px;
+        font-size: 30px
+    }
+    .msgContainer{
+        display: flex;
+        justify-content:center ;
+        justify-items: center;
+    }
+    
+    .msg{
+        font-size: 35px;
+        display: inline;
+        border-radius: 10px;
+        margin-top: 50px;
+        width: 300px;
+    }
+}
